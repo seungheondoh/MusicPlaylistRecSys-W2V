@@ -3,20 +3,23 @@
 - **Team ThunderCat**: ([Public LeaderBoard](https://arena.kakao.com/c/7/leaderboard) 58th)
   
 ## 1. Competition Overview
-- **Goal**: To predict songs and tags that were not given when half or all of the songs and tags in the playlist are **unseen**
-- **data**
-    - Playlist metadata (title, song, tag, number of likes, update time)
-    - Song metadata (song title, album title, genre, title date)
-    - Mel-spectrogram of the song
-- **Number of participating teams**: 786 teams
+**Goal**: To predict songs and tags that were not given when half or all of the songs and tags in the playlist are **unseen**
+
+**data**
+- Playlist metadata (title, song, tag, number of likes, update time)
+- Song metadata (song title, album title, genre, title date)
+- Mel-spectrogram of the song
+
+**Number of participating teams**: 786 teams
   
 ## 2. Issue
-- Challenge: all of the songs and tags in the playlist are **unseen**
-- Approach
+Challenge: all of the songs and tags in the playlist are **unseen**
+
+Approach
     - Multi-Modal Retrieval
     - Query by Song, Tag, Title
 
-- **Main Issue**
+**Main Issue**
 1. Make co-embedding space that contain song vector, tag vector, title vector
 2. Evaluate that the embedding space learns the **semantic relationship**.
 3. Cover all retrieval scenario
@@ -27,13 +30,13 @@
 
 ## 3. Contribution
 
-- Approach
-    - Make co-embedding space with Word2vec Method
-    - Single Modal Retrieval
-        - Voting each modality
-    - Multi Modal Retrieval
-        - Mean each modality
-    - Cluster Based Retrieval
+Approach
+- Make co-embedding space with Word2vec Method
+- Single Modal Retrieval
+    - Voting each modality
+- Multi Modal Retrieval
+    - Mean each modality
+- Cluster Based Retrieval
     
 1. Train Co-embedding Space (Word2Vec Embedding)
     - Input: Sentence (Title token, Tag, Genre, Song, Plylist id)
