@@ -28,15 +28,18 @@ Approach
     - Given Playlist tag to Song retrieval (Unseen Item retrieval)
     - Title to Tag and Song retrieval (Sentence to Item retrieval)
 
-## 3. Contribution
+## 3. Idea
 
 Approach
+
 - Make co-embedding space with Word2vec Method
 - Single Modal Retrieval
     - Voting each modality
 - Multi Modal Retrieval
     - Mean each modality
 - Cluster Based Retrieval
+
+## 4. Approach
     
 1. Train Co-embedding Space (Word2Vec Embedding)
     - Input: Sentence (Title token, Tag, Genre, Song, Plylist id)
