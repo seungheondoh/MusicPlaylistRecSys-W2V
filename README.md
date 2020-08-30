@@ -68,6 +68,7 @@ Approach
 
 
 ### Learning code (from scratch)
+Best model hyper-parameter, window: 100, vector: 300, mincount: 10, iteration: 50, Skip-gram
 ```
 $ train_embedding.py
 $ embedding_most_similar.py
