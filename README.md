@@ -69,8 +69,8 @@ $ embedding_most_similar.py
 
 ## 5. To-do
 Measure Playlist-Song's Mean and Playlist's Vector Similarity
-    - Mid-Evaluation of Embedding Space: KL Divergence
-    - Training Method: Self-Supervised Approach
+- Mid-Evaluation of Embedding Space: KL Divergence
+- Training Method: Self-Supervised Approach
 
 ## 6. Reference
 - [Musical Word Embedding: Bridging the Gap between Listening Contexts and Music](https://arxiv.org/pdf/2008.01190.pdf)
